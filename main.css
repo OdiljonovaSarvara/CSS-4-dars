@@ -1,0 +1,227 @@
+body{
+    background-color: #C3E9F0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+    position: relative;
+}
+.navbar-item a{
+    color: grey;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.navbar-item:hover{
+    background-color: #f1f1f1;
+}
+.navbar-item:hover a{
+    color: #34c9cd;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.flex-item{
+    position: relative;
+    /*border: 1px solid red;*/
+    padding: 10px 15px;
+    z-index: -1;
+}
+.flex-item p{
+    background-color: white;
+    padding: 20px;
+}
+.drop-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+    background-image: url("rasim/down-arrow.svg");
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+/*.wrap{*/
+/*    width: 1200px;*/
+/*    margin: 10px auto;*/
+/*    background-color: white;*/
+/*    box-sizing: border-box;*/
+/*    padding: 15px;*/
+/*}*/
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #34c9cd;
+    border-bottom: 6px solid #248f91;
+    transition: all 2s ease; /*ochilib yopilish voqtini belgilidi*/
+    border-radius: 8px;
+}
+.btn:active{
+    margin-top: 3px;
+    border-bottom-width: 3px;
+}
+.btn:focus{
+    margin-top: 3px;
+    border-bottom-width: 3px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 200px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: dodgerblue;
+    border: 1px solid #248f91;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    line-height: 45px; /*balantligi boyicha tekislab beradi*/
+    background-image: url("rasim/pp.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+
+.badge{
+    background-color: #34c9cd;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    right: 15px;
+}
+.bg{
+    background-color: #211414;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    right: 431px;
+}
+.navbar-item{
+    position: relative;
+}
+.navbar-item::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    /*background-image: url("rasim/down-arrow.svg");*/
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    vertical-align: middle;
+    position: absolute;
+    top: 28px;
+    right: -5px;
+    margin-left: 4px;
+}
+
+.block{
+    width: 330px;
+    height: 45px;
+    background-color: #5a9fdd;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: all 1s ease;
+    margin: 2px;
+}
+
+.block a{
+    text-decoration: none;
+    color: white;
+}
+.block:active{
+    width: 330px;
+    height: 500px;
+    background-color: white;
+}
+.block:focus{
+    width: 330px;
+    height: 500px;
+    background-color: white;
+}
+.sub-menu-item{
+    list-style: none;
+    color: grey;
+    padding: 10px 15px;
+    position: relative;
+}
+.sub-menu-item:hover{
+    color: #f7f7fa;
+    background-color: rgb(65,105,225,0.5);
+}
+.sub-menu-item > .sub-menu{
+    left: 100%;
+    top: 0;
+
+}
+.sub-menu-item:hover > .sub-menu{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

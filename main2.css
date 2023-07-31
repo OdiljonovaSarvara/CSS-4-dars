@@ -1,0 +1,39 @@
+body{
+    background-color: #C3E9F0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 15px;
+    position: relative;
+}
+.navbar-item a{
+    color: grey;
+    text-decoration: none;
+}
+.navbar-item a{
+    background-color: #f1f1f1;
+}
+.navbar-item:hover a{
+    color: #34c9cd;
+}
+.drop-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
